@@ -1,0 +1,29 @@
+.calculator {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+}
+
+.button {
+    width: 100px;
+    height: 125px;
+    border-radius: 15px;
+    border: black;
+    font-size: 55px;
+    color: #302f2f;
+}   
+
+.input {
+    width: 357px;
+    padding: 25px;
+    text-align: right;
+    height: 85px;
+    font-size: 55px;
+    border-radius: 13px;
+    background: red;
+    color: rgb(117, 117, 117);
+    border: 2px solid red;
+    outline: none;
+}
